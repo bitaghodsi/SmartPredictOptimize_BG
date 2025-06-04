@@ -17,7 +17,7 @@ Given input features about scheduled visits (e.g., appointment type, department,
 
 All models are evaluated using **Relative SCT Error**:
 \[
-\text{Relative SCT Error} = \frac{\text{SCT}_{\text{predicted}} - \text{SCT}_{\text{optimal}}}{\text{SCT}_{\text{optimal}}}
+\text{Relative SCT Error} 
 \]
 
 ## Project Structure
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ## How to Run
 
 1. Open the notebook in Google Colab or Jupyter.
-2. Upload the dataset (`scheduled_visits_Bita.csv`).
+2. Upload the dataset.
 3. Run all cells to train and compare models.
 4. View the final plot to see how each loss function performs in terms of SCT.
 
